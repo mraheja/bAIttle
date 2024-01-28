@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service WeToob {
+  rpc GetVideos (GetVideosRequest) returns (GetVideosResponse);
+}
+
+message GetVideosRequest {
+  string user = 1;
+}
+
+message GetVideosResponse {
+ repeated string videos = 2;
+}

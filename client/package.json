@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
     "@heroicons/react": "^2.0.18",
+    "@mui/material": "^5.15.6",
     "next": "14.0.3",
+    "nextjs-simple-typewriter": "^5.2.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "use-sound": "^4.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
